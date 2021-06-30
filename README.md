@@ -20,15 +20,16 @@ The secound document is the MSP430FR2355's firmware. This one will give the abil
 
 ##### MSP430FR2355 Pin Diagram :
 
- PIN                  FUNCTION
- P1.0 ............... SD Card Chip Select 
- P1.1 ............... SD Card Clock
- P1.2 ............... SD Card Data In
- P1.3 ............... SD Card Data Out
- P1.6 ............... SD Card Detect (unused)
- 
- P4.6 ............... I2C SDA (IR_Camera)
- P4.7 ............... I2C SCL (IR_Camera)
+ | PIN  | FUNCTION |
+ | --- | --- |
+ | P1.0 | SD Card Chip Select |
+ | P1.1 | SD Card Clock |
+ | P1.2 | SD Card Data In |
+ | P1.3 | SD Card Data Out |
+ | P1.6 | SD Card Detect (unused) |
+ |    |    |
+ | P4.6 | I2C SDA (IR_Camera) |
+ | P4.7 | I2C SCL (IR_Camera) |
 
 The next one is the Word documents. This is a short and sweet walkthough of how to convert the information from the microSD card to a txt file. This is convienent for two reasons: 1. Windows OS doesn't like to deal with raw data 2. The size of the file is dramatically increased For this part you will need a Linux computer to run just two commands. It takes about 10 minutes for a 16GB SD card and about 30 - 40 minutes for a 64GB SD card to process. This is just because it is copying all of the information from the microSD to a file. I do recommend deleting the .raw files once you have verified the .txt file looks correct as they take up the size of your SD card. A bash script is in process to replace this process.
 
