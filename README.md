@@ -21,8 +21,7 @@ The secound document is the MSP430FR2355's firmware. This one will give the abil
 ##### MSP430FR2355 Pin Diagram :
 
  PIN                  FUNCTION
- --------------------- ----------------------------
- P1.0 ............... SD Card Chip Select
+ P1.0 ............... SD Card Chip Select 
  P1.1 ............... SD Card Clock
  P1.2 ............... SD Card Data In
  P1.3 ............... SD Card Data Out
