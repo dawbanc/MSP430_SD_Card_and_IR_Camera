@@ -18,7 +18,7 @@ The first one is this text file so good job! This file will have the complete pr
 
 The secound document is the MSP430FR2355's firmware. This one will give the ability for the MSP to talk to the SD card and the IR camera. The camera is connected via I2C. The microSD card is connected via SPI. If using the TI MSP430FR2355, the pin setup is as follows and can also be found in the main.c file of the MSP430 firmware folder. Do note that the Card Detect is not currently used as it is not necessary in normal operation. However, it can be added as an input (and might in later versions) in the main.c file.
 
-##### MSP430FR2355 Pin Diagram :
+##### MSP430FR2355 Pin and Function Table :
 
  | PIN  | FUNCTION |
  | --- | --- |
@@ -27,7 +27,6 @@ The secound document is the MSP430FR2355's firmware. This one will give the abil
  | P1.2 | SD Card Data In |
  | P1.3 | SD Card Data Out |
  | P1.6 | SD Card Detect (unused) |
- |    |    |
  | P4.6 | I2C SDA (IR_Camera) |
  | P4.7 | I2C SCL (IR_Camera) |
 
